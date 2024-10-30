@@ -1,0 +1,139 @@
+.mimo-masonry-infinite-widget {
+    padding: 0 0 60px;
+}
+
+.mimo-masonry-page-nav {
+    background: #ffffff;
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+    clear: both;
+}
+
+a.mimo-masonry-post-sharer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: 0;
+    z-index: 10;
+    -webkit-transition: all 0.3s ease-in;
+    /* Changed here */
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.mimo-masonry-in-entry-thumbnail {
+    position: relative;
+}
+
+.mimo-masonry-in-entry-thumbnail:hover a.mimo-masonry-post-sharer {
+    opacity: 0.6;
+}
+
+a.mimo-masonry-post-sharer i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -12px 0 0 -5px;
+}
+
+.widget_mimo_masonry ul li a:before {
+    content: '';
+    display: none;
+}
+
+.widget_mimo_masonry .widget-title {
+    margin: 4px 2px -2px 2px;
+}
+
+.widget.widget_mimo_masonry {
+    padding: 0 0 30px;
+    margin: 0;
+    background: transparent;
+}
+
+.widget.widget_mimo_masonry .mimo-masonry-sticky {
+    display: none;
+}
+
+.mimo-masonry-hidden {
+    display: none;
+}
+
+.widget_mimo_masonry article {
+    float: left;
+    display: inline-block;
+}
+
+.widget_mimo_masonry article .mimo-masonry-inside-post-container {
+    background: #ffffff;
+}
+
+
+
+.widget_mimo_masonry .mimo-masonry-filter ul li {
+    float: left;
+    display: inline-block;
+    padding: 10px;
+}
+
+.mimo-masonry-blogloop-content {
+    width: 100%;
+    text-align: left;
+}
+
+.mimo-masonry-blogloop-format-icon {
+    display: inline-block;
+}
+
+.mimo-masonry-post-container {
+    padding: 10px;
+}
+
+.mimo-masonry-no-more-posts{
+    display: none;
+
+}
+
+.mimo-masonry-page-nav.mimo-masonry-endofpage .mimo-masonry-no-more-posts{
+    display:block;
+}
+
+/* Loading Messages*/
+
+.mimo-masonry-loading {
+    display: block;
+    margin: 0;
+    clear: both;
+    min-height: 20px;
+    max-height: 200px;
+    z-index: 99998;
+    text-align: center;
+    background: url(../img/loader.gif) center center no-repeat ;
+}
+
+
+
+
+.widget_mimo_masonry .mimo-masonry-page-nav, .widget_mimo_masonry .mimo-masonry-filter, .widget_mimo_masonry .mimo-masonry-filter-ul {
+    margin: 0;
+    background: transparent;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.widget_mimo_masonry .mimo-masonry-filter-ul:before, .widget_mimo_masonry .mimo-masonry-filter-ul:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.widget_mimo_masonry .mimo-masonry-filter-ul:after {
+    clear: both;
+}
